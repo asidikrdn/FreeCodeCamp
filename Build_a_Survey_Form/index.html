@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-6 offset-3 text-center">
+          <h1 id="title">Survey Form</h1>
+          <p id="description">Silahkan isi form berikut dengan benar</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 offset-3">
+          <form action="" id="survey-form">
+            <div class="row g-0 my-2">
+              <div class="col-2">
+                <label for="name" id="name-label" class="form-label"
+                  >Nama</label
+                >
+              </div>
+              <div class="col-1 text-end px-2">:</div>
+              <div class="col-9">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  required
+                  placeholder="Nama Lengkap"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="row g-0 my-2">
+              <div class="col-2">
+                <label for="email" id="email-label" class="form-label"
+                  >Alamat Email</label
+                >
+              </div>
+              <div class="col-1 text-end px-2">:</div>
+              <div class="col-9">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder="Alamat Email"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="row g-0 my-2">
+              <div class="col-2">
+                <label for="number" id="number-label" class="form-label"
+                  >Usia
+                </label>
+              </div>
+              <div class="col-1 text-end px-2">:</div>
+              <div class="col-9">
+                <input
+                  type="number"
+                  name="age"
+                  id="number"
+                  min="17"
+                  max="25"
+                  placeholder="Usia yang diperbolehkan antara 17 s/d 25 tahun"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="row g-0 my-2">
+              <div class="col-2">
+                <p class="form-label">Jenis Kelamin</p>
+              </div>
+              <div class="col-1 text-end px-2">:</div>
+              <div class="col-9">
+                <input
+                  type="radio"
+                  name="gender"
+                  value="male"
+                  id="male"
+                  class="form-check-input"
+                />
+                <label for="male" class="form-label">Pria</label>
+                &nbsp;
+                <input
+                  type="radio"
+                  name="gender"
+                  value="female"
+                  id="female"
+                  class="form-check-input"
+                />
+                <label for="female" class="form-label">Wanita</label>
+              </div>
+            </div>
+            <div class="row g-0 my-2">
+              <div class="col-2">
+                <p class="form-label">Role</p>
+              </div>
+              <div class="col-1 text-end px-2">:</div>
+              <div class="col-9">
+                <select name="role" id="dropdown" class="form-select">
+                  <option value="Front-End Web Development">
+                    Front-End Web Development
+                  </option>
+                  <option value="Back-End Web Development">
+                    Back-End Web Development
+                  </option>
+                  <option value="Fullstack Web Development">
+                    Fullstack Web Development
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div class="row g-0 my-2">
+              <div class="col-2">
+                <p class="form-label">Bahasa</p>
+              </div>
+              <div class="col-1 text-end px-2">:</div>
+              <div class="col-9">
+                <input
+                  type="checkbox"
+                  name="programming_language"
+                  value="JavaScript"
+                  id="JavaScript"
+                  class="form-check-input"
+                />
+                <label for="JavaScript" class="form-label">JavaScript</label>
+                &nbsp;
+                <input
+                  type="checkbox"
+                  name="programming_language"
+                  value="PHP"
+                  id="PHP"
+                  class="form-check-input"
+                />
+                <label for="PHP" class="form-label">PHP</label>
+                &nbsp;
+                <input
+                  type="checkbox"
+                  name="programming_language"
+                  value="Python"
+                  id="Python"
+                  class="form-check-input"
+                />
+                <label for="Python" class="form-label">Python</label>
+                &nbsp;
+                <input
+                  type="checkbox"
+                  name="programming_language"
+                  value="Ruby"
+                  id="Ruby"
+                  class="form-check-input"
+                />
+                <label for="Ruby" class="form-label">Ruby</label>
+              </div>
+            </div>
+            <div class="row g-0 my-2">
+              <div class="col-2">Tentang Kamu</div>
+              <div class="col-1 text-end px-2">:</div>
+              <div class="col-9">
+                <textarea
+                  name="about"
+                  id="about"
+                  cols="30"
+                  rows="10"
+                  class="form-control"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row g-0 my-2">
+              <div class="col text-center"></div>
+            </div>
+            <div class="text-center">
+              <button type="submit" id="submit" class="btn btn-primary mx-2">
+                Kirim
+              </button>
+              <button type="reset" id="reset" class="btn btn-danger mx-2">
+                Reset
+              </button>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
