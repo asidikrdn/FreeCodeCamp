@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header" class="d-flex justify-content-between px-4 py-2">
+      <div class="logo d-flex flex-row align-items-center">
+        <img
+          src="https://bakulkode.web.id/images/logo_bakul_kode.png"
+          alt="Bakul Kode"
+          id="header-img"
+        />
+        <h3>Bakul Kode</h3>
+      </div>
+      <nav id="nav-bar">
+        <a href="#Products" class="nav-link">Product</a>
+        <a href="#Course" class="nav-link">Course</a>
+        <a href="#Team" class="nav-link">Team</a>
+      </nav>
+    </header>
+    <main>
+      <section id="Newsletter">
+        <h1 class="text-center">Join Our Newsletter</h1>
+        <form
+          action="https://www.freecodecamp.com/email-submit"
+          method="POST"
+          id="form"
+          class="w-25 mx-auto"
+        >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your email address"
+          />
+          <div class="text-center p-2">
+            <input
+              type="submit"
+              value="Get Started"
+              id="submit"
+              class="btn btn-warning text-center"
+            />
+          </div>
+        </form>
+      </section>
+      <section id="Products">
+        <div class="row">
+          <div class="col-8 offset-2 d-flex align-items-center">
+            <i class="bi-globe mx-5"></i>
+            <div class="desc">
+              <h4 class="mt-3">Website</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Tenetur nihil cupiditate odio velit quas eos qui impedit
+                sapiente molestiae perspiciatis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 offset-2 d-flex align-items-center">
+            <i class="bi-file-code-fill mx-5"></i>
+            <div class="desc">
+              <h4 class="mt-3">Mobile Apps</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Tenetur nihil cupiditate odio velit quas eos qui impedit
+                sapiente molestiae perspiciatis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 offset-2 d-flex align-items-center">
+            <i class="bi-shield-fill-check mx-5"></i>
+            <div class="desc">
+              <h4 class="mt-3">Cyber Security</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Tenetur nihil cupiditate odio velit quas eos qui impedit
+                sapiente molestiae perspiciatis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Course" class="py-5 text-center">
+        <iframe
+          width="600"
+          height="400"
+          src="https://www.youtube.com/embed/5fb2aPlgoys"
+          title="JavaScript DOM Manipulation – Full Course for Beginners"
+          frameborder="1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          id="video"
+        ></iframe>
+      </section>
+      <section id="Team" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h1 class="pb-3">Our Team</h1>
+              <hr class="w-25 mx-auto" />
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                nemo autem cumque optio, consequatur sed.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card mx-auto">
+                <div class="card-body text-center">
+                  <img
+                    src="https://template-landingpage.netlify.app/img/people-1.jpg"
+                    alt=""
+                    class="w-75 rounded-circle my-3"
+                  />
+                  <h3>Ahmad</h3>
+                  <h5 class="text-muted">Web Programmer</h5>
+                  <p class="lead">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Nihil mollitia voluptates praesentium error aliquam totam iste
+                    optio! Deserunt perspiciatis voluptates veritatis, accusamus
+                    esse qui incidunt.
+                  </p>
+                  <i class="bi-facebook mx-3"></i>
+                  <i class="bi-twitter mx-3"></i>
+                  <i class="bi-instagram mx-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card mx-auto">
+                <div class="card-body text-center">
+                  <img
+                    src="https://template-landingpage.netlify.app/img/people-2.jpg"
+                    alt=""
+                    class="w-75 rounded-circle my-3"
+                  />
+                  <h3>Sidik</h3>
+                  <h5 class="text-muted">Web Designer</h5>
+                  <p class="lead">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Nihil mollitia voluptates praesentium error aliquam totam iste
+                    optio! Deserunt perspiciatis voluptates veritatis, accusamus
+                    esse qui incidunt.
+                  </p>
+                  <i class="bi-facebook mx-3"></i>
+                  <i class="bi-twitter mx-3"></i>
+                  <i class="bi-instagram mx-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card mx-auto">
+                <div class="card-body text-center">
+                  <img
+                    src="https://template-landingpage.netlify.app/img/people-3.jpg"
+                    alt=""
+                    class="w-75 rounded-circle my-3"
+                  />
+                  <h3>Rudini</h3>
+                  <h5 class="text-muted">Project Manager</h5>
+                  <p class="lead">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Nihil mollitia voluptates praesentium error aliquam totam iste
+                    optio! Deserunt perspiciatis voluptates veritatis, accusamus
+                    esse qui incidunt.
+                  </p>
+                  <i class="bi-facebook mx-3"></i>
+                  <i class="bi-twitter mx-3"></i>
+                  <i class="bi-instagram mx-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card mx-auto">
+                <div class="card-body text-center">
+                  <img
+                    src="https://template-landingpage.netlify.app/img/people-4.jpg"
+                    alt=""
+                    class="w-75 rounded-circle my-3"
+                  />
+                  <h3>Amelya</h3>
+                  <h5 class="text-muted">UI/UX Designer</h5>
+                  <p class="lead">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Nihil mollitia voluptates praesentium error aliquam totam iste
+                    optio! Deserunt perspiciatis voluptates veritatis, accusamus
+                    esse qui incidunt.
+                  </p>
+                  <i class="bi-facebook mx-3"></i>
+                  <i class="bi-twitter mx-3"></i>
+                  <i class="bi-instagram mx-3"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer id="footer" class="py-2 bg-black text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 text-md-start text-center py-2">
+            <h3>BakulKode</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              provident, maiores atque odio impedit, molestias quam vel
+              praesentium voluptatibus facilis id? Minima quae consequatur
+              accusantium?
+            </p>
+            <p>
+              &copy; BakulKode 2022
+            </p>
+          </div>
+          <div class="col-12 col-md-4 offset-md-4 text-md-start text-center py-2">
+            <h3>Hubungi Kami</h3>
+            <p class="my-1"><i class="bi-envelope me-3"></i>sidikrudini16@gmail.com</p>
+            <p class="my-1"><i class="bi-phone me-3"></i>(+62)87711356758</p>
+            <p><i class="bi-globe me-3"></i>asidikrdn.netlify.app</p>
+            <a href="#" class="text-white" data-><i class="bi-facebook me-3"></i></a>
+            <a href="#" class="text-white" data-><i class="bi-twitter me-3"></i></a>
+            <a href="#" class="text-white" data-><i class="bi-instagram me-3"></i></a>
+            <a href="#" class="text-white" data-><i class="bi-whatsapp me-3"></i></a>
+            <a href="#" class="text-white" data-><i class="bi-github me-3"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
