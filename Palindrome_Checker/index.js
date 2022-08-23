@@ -1,14 +1,13 @@
 function palindrome(str) {
   str = str.replace(/\W|\s|_/g,'');
   str = str.toLowerCase();
-  let newStr = str.split('');
-  // console.log(newStr);
+  // console.log(str);
   let result;
-  for (let i=0; i<(newStr.length/2);i++) {
-    result = (newStr[i] === newStr[newStr.length-(i+1)]);
+  for (let i=0; i<(str.length/2);i++) {
+    result = (str[i] === str[str.length-(i+1)]);
     if(result == false) {break;}
-    // console.log(newStr[i]);
-    // console.log(newStr[newStr.length-(i+1)]);
+    // console.log(str[i]);
+    // console.log(str[str.length-(i+1)]);
     // console.log(result);
   }
   return result;
