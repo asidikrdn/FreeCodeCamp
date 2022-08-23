@@ -4,5 +4,3 @@ let telephoneCheck = (str) => {
   // console.log(validator.test(str));
   return validator.test(str);
 }
-
-telephoneCheck('(555)555-5555');
